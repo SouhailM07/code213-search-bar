@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply border-2 border-black outline-none h-[3rem] w-[20rem];
+  }
+}
